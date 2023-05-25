@@ -1,0 +1,48 @@
+.div-gifs {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 40px;
+}
+
+.img-home {
+  width: 100px;
+}
+
+.gif-hello {
+  width: 600px;
+  height: 400px;
+}
+
+.gif-dev {
+  width: 800px;
+  border-radius: 10px;
+}
+
+.div-into {
+  padding: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  width: 55%;
+  text-align: justify;
+  padding-bottom: 120px;
+}
+
+.div-home {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.div-foto {
+  margin-bottom: 280px;
+}
+
+.minha-foto {
+  width: 400px;
+  border-radius: 50%;
+}
