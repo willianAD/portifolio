@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { Route, Switch } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import './App.css';
+import Stacks from './pages/Stacks';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import './styles/App.css';
 
 function App() {
+  const [storage, setStorage] = useState('darkMode');
   return (
-    <div className="App">
-      <HomePage />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={storage === "darkMode" ? "darkMode" : "lightMode" }>
+    <Switch>
+      <div className={storage === "darkMode" ? "darkMode" : "lightMode" }>
+        <Header changeMode={ setStorage } />
+        <Route exact path="/" component={ HomePage } />
+        {/* <Route path="/home-portifolio" component={ HomePage } /> */}
+        <Route path="/about" component={ About } />
+        <Route path="/stacks" component={ Stacks } />
+        <Route path="/projects" component={ Projects } />
+        <Route path="/contact" component={ Contact } />
+        <Footer />
+      </div>
+    </Switch>
     </div>
   );
 }

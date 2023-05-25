@@ -1,0 +1,47 @@
+.technologies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+
+.Title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  padding: 50px;
+}
+
+.Text {
+  padding: 15px;
+}
+
+.stacks {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.stack {
+  width: 100px;
+  margin: 15px;
+}
+
+.name { 
+  display: none;
+  color: var(--logoColor);
+}
+
+.sta {
+  transition: 1s;
+}
+
+.sta:hover .name {
+  display: flex;
+  justify-content: center;
+}
+
+.sta:hover {
+  transition: 1s;
+  transform:scale(1.2);
+}

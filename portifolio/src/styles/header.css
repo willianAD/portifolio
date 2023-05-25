@@ -1,0 +1,34 @@
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 20px;
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+div input {
+  width: 35px;
+  height: 35px;
+}
+
+header img {
+  width: 40px;
+}
+
+.div-mode {
+  width: 10%;
+  margin-left: 3%;
+}
+
+.link-ligth {
+  color: black;
+  margin: 10px 20px;
+}
+
+.link-dark {
+  color: white;
+  margin: 10px 20px;
+}

@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.ligthMode {
+  color: black;
+  background-color: white;
+}
+
+.darkMode {
+  color: white;
+  background-color: rgb(35, 35, 35);
+}

@@ -1,0 +1,37 @@
+footer {
+  width: 96%;
+  bottom: 20px;
+}
+
+.social-network {
+  padding: 25px;
+  width: 45px;
+  height: 45px;
+}
+
+.div-contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.div-img {
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.div-line {
+  height: 2px;
+  background-color: rgba(63, 63, 63);
+  margin: 15px;
+  width: 100%;
+}
+
+.div-author {
+  display: flex;
+  justify-content: center;
+}
