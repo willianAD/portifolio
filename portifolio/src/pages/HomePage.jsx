@@ -11,7 +11,7 @@ class HomePage extends React.Component {
           <img src="https://raw.githubusercontent.com/willianAD/willianAD/main/assets/gifs/Hi.gif" alt="Handshake" className="img-home" />
           {
             localStorage.getItem('theme') === "ligthMode" ?
-              <a href="https://git.io/typing-svg">
+              <a href="https://github.com/willianAD">
                 <img src="https://readme-typing-svg.demolab.com?font=VT323&size=40&duration=2000&pause=1000&color=202EFF&center=true&vCenter=true&multiline=true&width=500&height=200&lines=Ol%C3%A1!+Eu+sou+Willian+Afonso%2C;Bem+vindo+ao+meu+Portif%C3%B3lio!" alt="Typing SVG" className="gif-hello" />
               </a>
             :
@@ -28,11 +28,11 @@ class HomePage extends React.Component {
           </div>
           <div className="div-into">
             <p>
-              Fique à vontade entre e não bata a porta ao sair. <br />
-              Estou aberto para receber feedbacks sobre meu código. <br />
-              Me chame para conversar sobre alguma tecnologia interessante, vou adorar. <br />
-              Utilize a barra de navegação para saber mais sobre mim e
-              minhas stacks, além de me contatar. <br />
+              Fique à vontade entre e não bata a porta ao sair. <br /><br />
+              Estou aberto para receber feedbacks sobre meu código. <br /><br />
+              Me chame para conversar sobre alguma tecnologia interessante, vou adorar. <br /><br />
+              Utilize a barra de navegação para saber mais sobre mim, minhas stacks e 
+              meus projetos, além de me contatar. <br /><br />
               Agradeço sua visita, e até logo!
             </p>
           </div>

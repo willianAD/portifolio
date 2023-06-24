@@ -1,23 +1,22 @@
 .div-gifs {
   padding-top: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  margin: 40px;
 }
 
 .img-home {
-  width: 100px;
+  width: 4%;
 }
 
 .gif-hello {
-  width: 600px;
+  width: 70%;
   height: 400px;
 }
 
 .gif-dev {
-  width: 800px;
+  width: 45%;
   border-radius: 10px;
 }
 

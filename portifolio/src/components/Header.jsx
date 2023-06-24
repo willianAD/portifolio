@@ -11,7 +11,7 @@ class Header extends React.Component {
   constructor() {
     super();
     this.state = {
-      theme: 'darkMode',
+      theme: 'ligthMode',
     };
   };
 
@@ -52,6 +52,7 @@ class Header extends React.Component {
               <input type="image" src={ Ligth } className="ligthMode" alt="LigthMode" onClick={ this.changeThemeToDark} />
             ) : (
               <input type="image" src={ Dark } className="darkMode" alt="DarkMode" onClick={ this.changeThemeToLigth } />
+
             )
           }
         </div>

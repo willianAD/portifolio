@@ -17,7 +17,6 @@ function App() {
       <div className={storage === "darkMode" ? "darkMode" : "lightMode" }>
         <Header changeMode={ setStorage } />
         <Route exact path="/" component={ HomePage } />
-        {/* <Route path="/home-portifolio" component={ HomePage } /> */}
         <Route path="/about" component={ About } />
         <Route path="/stacks" component={ Stacks } />
         <Route path="/projects" component={ Projects } />
